@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/activity_view_appointment_include_category_type"
+        android:text="CATEGORY : "
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:layout_marginBottom="5sp"
+        android:textStyle="bold"/>
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_category"
+        android:layout_below="@id/activity_view_appointment_include_category_type"
+        android:drawablePadding="10dp" />
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_desc1"
+        android:layout_below="@id/activity_view_appointment_include_category"
+        android:drawablePadding="10dp"
+        android:text="DESCRIPTION : "
+        android:textStyle="bold"/>
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_desc"
+        android:layout_below="@id/activity_view_appointment_include_desc1"
+        android:drawablePadding="10dp" />
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_patient1"
+        android:layout_below="@id/activity_view_appointment_include_desc"
+        android:drawablePadding="10dp"
+        android:text="PATIENT : "
+        android:textStyle="bold"/>
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_patient"
+        android:layout_below="@id/activity_view_appointment_include_patient1"
+        android:drawablePadding="10dp" />
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_schedule1"
+        android:layout_below="@id/activity_view_appointment_include_patient"
+        android:drawablePadding="10dp"
+        android:text="SCHEDULE : "
+        android:textStyle="bold"/>
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_view_appointment_include_schedule"
+        android:layout_below="@id/activity_view_appointment_include_schedule1"
+        android:drawablePadding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/approveButton"
+        android:id="@+id/activity_view_appointment_include_approveButton"
+        android:layout_below="@id/activity_view_appointment_include_schedule"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/declineButton"
+        android:id="@+id/activity_view_appointment_include_declineButton"
+        android:layout_below="@id/activity_view_appointment_include_approveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/completeButton"
+        android:id="@+id/activity_view_appointment_include_completeButton"
+        android:layout_below="@id/activity_view_appointment_include_declineButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

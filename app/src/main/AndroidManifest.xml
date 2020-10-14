@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goldenmedicare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/clinic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.DoctorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.DoctorPatientsActivity"></activity>
+        <activity android:name=".View.DoctorAppointmentsActivity"></activity>
+        <activity android:name=".View.ViewAppointmentActivity"></activity>
+        <activity android:name=".View.UpdateProfileActivity"></activity>
+        <activity android:name=".View.PatientActivity"></activity>
+        <activity android:name=".View.PatientReportActivity"></activity>
+        <activity android:name=".View.RequestAppointment"></activity>
+        <activity android:name=".View.LoginActivity"></activity>
+        <activity android:name=".View.RegisterActivity"></activity>
+        <activity android:name=".View.ReportCreateActivity"></activity>
+        <activity android:name=".View.ReportViewActivity"></activity>
+
+        <service
+            android:name=".Controller.MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

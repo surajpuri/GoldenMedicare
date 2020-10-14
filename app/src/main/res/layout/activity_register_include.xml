@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_register_include_full_name"
+        android:inputType="text"
+        android:hint="Full Name"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:layout_marginBottom="5sp" />
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_register_include_email"
+        android:layout_below="@id/activity_register_include_full_name"
+        android:inputType="text"
+        android:hint="Email"
+        android:drawablePadding="10dp" />
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_register_include_username"
+        android:layout_below="@id/activity_register_include_email"
+        android:inputType="text"
+        android:hint="Username"
+        android:drawablePadding="10dp" />
+
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_register_include_password"
+        android:layout_below="@id/activity_register_include_username"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:drawablePadding="10dp" />
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_register_include_confirm_password"
+        android:layout_below="@id/activity_register_include_password"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:drawablePadding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_registerButton"
+        android:id="@+id/activity_register_include_registerButton"
+        android:layout_below="@id/activity_register_include_confirm_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/activity_register_include_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_register_include_registerButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:text="@string/login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "941080967740",
+    "firebase_url": "https://goldenmedicare-6d8e8.firebaseio.com",
+    "project_id": "goldenmedicare-6d8e8",
+    "storage_bucket": "goldenmedicare-6d8e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941080967740:android:68954fc2105c8b3e73e139",
+        "android_client_info": {
+          "package_name": "com.example.goldenmedicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941080967740-hl7t9a314g7gta3uh5um674rij13l705.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7TJh-REl-tAVHU80zvs8dtBhWWLzaMQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941080967740-hl7t9a314g7gta3uh5um674rij13l705.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

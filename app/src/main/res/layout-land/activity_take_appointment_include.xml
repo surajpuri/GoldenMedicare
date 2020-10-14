@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+    
+    <android.widget.Spinner
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_take_appointment_include_category"
+        android:drawablePadding="10dp"
+        android:maxLines="3"
+        android:layout_marginBottom="5sp" />
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_take_appointment_include_description"
+        android:layout_below="@id/activity_take_appointment_include_category"
+        android:inputType="textMultiLine"
+        android:hint="Description"
+        android:maxLines="5"
+        android:drawablePadding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/take_appointment_requestButton"
+        android:id="@+id/activity_take_appointment_include_requestButton"
+        android:layout_below="@id/activity_take_appointment_include_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

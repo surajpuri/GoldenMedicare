@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GoldenMedicare</string>
+    <string name="noConnection">Unable to establish connection</string>
+
+    <string name="register">register here</string>
+    <string name="login_loginButton">LOGIN</string>
+
+    <string name="login">login instead?</string>
+    <string name="register_registerButton">REGISTER</string>
+
+    <string name="reportButton">CREATE</string>
+
+    <string name="FCM_PREF">fcm_pref</string>
+    <string name="FCM_TOKEN">fcm_token</string>
+
+    <string name="loginPreferences">PREFERENCES_LOGIN</string>
+    <string name="loggedInPreference">PREFERENCES_LOGGED_IN</string>
+    <string name="loggedInPassword">PREFERENCES_LoginPassword</string>
+    <string name="preferencesUserId">PREFERENCES_UserId</string>
+    <string name="preferencesUsername">PREFERENCES_Username</string>
+    <string name="preferencesUserFullName">PREFERENCES_UserFullName</string>
+    <string name="preferencesUserEmail">PREFERENCES_UserEmail</string>
+    <string name="preferencesUserType">PREFERENCES_UserType</string>
+
+    <string name="reportDate">DATE : </string>
+    <string name="reportSummary">SUMMARY</string>
+    <string name="reportRemarks">REMARKS</string>
+
+    <string name="update">UPDATE</string>
+
+    <string name="take_appointment_requestButton">REQUEST</string>
+    <string name="approveButton">APPROVE</string>
+    <string name="declineButton">DECLINE</string>
+    <string name="completeButton">COMPLETE</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_date1"
+        android:layout_alignParentLeft="true"
+        android:drawablePadding="10dp"
+        android:text="@string/reportDate"
+        android:layout_marginBottom="10sp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_date2"
+        android:layout_toRightOf="@+id/activity_report_view_include_date1"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10sp"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_title"
+        android:layout_below="@id/activity_report_view_include_date1"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        android:layout_marginBottom="20sp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_summary1"
+        android:layout_below="@id/activity_report_view_include_title"
+        android:gravity="top"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5sp"
+        android:text="@string/reportSummary"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_summary2"
+        android:layout_below="@id/activity_report_view_include_summary1"
+        android:gravity="top"
+        android:layout_marginBottom="15sp"
+        android:drawablePadding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_remarks1"
+        android:layout_below="@id/activity_report_view_include_summary2"
+        android:gravity="top"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="5sp"
+        android:text="@string/reportRemarks"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_report_view_include_remarks2"
+        android:layout_below="@id/activity_report_view_include_remarks1"
+        android:gravity="top"
+        android:drawablePadding="10dp" />
+
+</RelativeLayout>
